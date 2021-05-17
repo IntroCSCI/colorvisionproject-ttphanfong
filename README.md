@@ -2,15 +2,15 @@
 
 ## Description
 
-!!!Replace with a description of what your program does!!!
+Supposed to pick random colours that will have unproblematic combinations.
 
 ### v0.2 Updates
 
-*Coming soon*
+Picking random colours
 
 ### v1.0 Updates
 
-*Coming soon*
+Colours that have been chosen will become disabled, no longer can be chosen again to reduce redundancy.
 
 
 ## Developer
@@ -19,32 +19,34 @@ Travis Phan-Fong
 
 ## Example
 
-To run the program, give the following commands:
-
-```
-g++ --std=c++11 *.cpp -o cvp
-./cvp
+To run the program, click run.
 ```
 
 Here is an example of the program running:
 
 ```
-!!!Replace with an example of the program running with user interaction!!!
+Enter needed number of colours (2-6):
+6
+
+Enter name of file to save to (.css):
+test
+
+Saved to 'test' with 6 colours chosen.
 ```
 
 ## C++ Guide
 
 ### Variables and Data Types
 
-!!!Replace with a summary and examples of how multiple variables have been used with a variety of data types and why they have been used effectively and appropriately!!!
+Variables used for but not limited to: storing, computing, logics stuff.
 
 ### Console Input and Output
 
-!!!Replace with a summary and examples of how input and output have been used effectively and appropriately!!!
+Uses Inputs to take user input ant Couts results letting user know code stuff has happened and it did not freeze.
 
 ### Decisions
 
-!!!Replace with a summary and examples of how multiple decision constructs have been used effectively and appropriately!!!
+They were used to choose between what colours to generate.
 
 ### Iteration
 
@@ -52,16 +54,4 @@ Here is an example of the program running:
 
 ### File Input and Output
 
-!!!Replace with a summary and examples of how input and/or output of files have been used effectively and appropriately!!!
-
-### Arrays/Vectors
-
-*Coming in version 0.2*
-
-### Functions
-
-*Coming in version 0.2*
-
-### Classes
-
-*Coming in version 1.0*
+Chosen colours were saved to a file.
